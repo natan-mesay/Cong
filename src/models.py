@@ -5,5 +5,6 @@ class Information(BaseModel):
     nick_name: str
     group: str
     
-class TelegramUpdate(BaseModel):
-    message: dict
+class TelegramMessage(BaseModel):
+    chat_id: int
+    text: str
