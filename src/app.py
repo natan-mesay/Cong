@@ -3,7 +3,7 @@ from telegram import Update
 from telegram.ext import Application
 from dotenv import load_dotenv
 import os
-from handler import register_handlers
+from bot.handlers import register_handlers
 from contextlib import asynccontextmanager
 
 # Load environment variables
