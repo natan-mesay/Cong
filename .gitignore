@@ -1,2 +1,7 @@
 env
 .env
+
+src/__pycache__/
+src/user_data.db
+
+src/uploads/
